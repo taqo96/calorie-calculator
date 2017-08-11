@@ -1,0 +1,61 @@
+.container {
+	margin:  auto;
+	width: 1366px;
+	height: 500px;
+	background: whitesmoke;
+
+}
+
+h1 {
+	font-family: 'Muli', sans-serif;
+	color: #31556d;
+	text-align: center;
+	padding-top: 30px;
+}
+#input-group {
+	float: left;
+	font-family: 'Muli', sans-serif;
+	color: #31556d;
+	height: 300px;
+	background: #e1e4ea;
+	width: 300px;
+	padding: 30px;
+	margin-left: 500px;
+}
+input#age {
+margin-left: 50px;
+font-family: 'Muli', sans-serif;
+color: #31556d;
+}
+input#height {
+margin-left: 23px;
+font-family: 'Muli', sans-serif;
+color: #31556d;
+}
+input#weight {
+margin-left: 18px;
+font-family: 'Muli', sans-serif;
+color: #31556d;
+}
+
+label#for-sex {
+padding-right: 50px;
+font-family: 'Muli', sans-serif;
+color: #31556d;
+}
+
+input#sum-of {
+	margin-left: 20px;
+}
+
+button#calculate-button {
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	color: whitesmoke;
+	border-style: none;
+	background-color: #31556d;
+	padding: 10px;
+
+}
+
+

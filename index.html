@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calorie Calculator</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+</head>
+<body>
+<section class="container">
+<h1>CALORIE CALCULATOR</h1>
+
+<div id="input-group">
+
+
+	<label id="for-age">AGE</label>
+	<input type="text" id="age"  name="Age">
+<br>
+<br>
+	<label id="for-height">HEIGHT</label>
+	<input type="number" id="height" name="Height">
+	<select id="measurement">
+		<option value="centimetres">cm</option>
+		
+	</select>
+<br>
+<br>
+	<label id="for-weight">WEIGHT</label>
+	<input type="number" id="weight" name="Weight">
+	<select id="measure-weight">
+
+		<option value="kg">kg</option>
+	</select>
+<br>
+<br>
+	<label id="for-sex">SEX</label>
+	<select id="sex">Sex
+		<option value="Male">Male</option>
+		<option value="Female">Female</option>
+	</select>
+<br>
+<br>
+	<button id="calculate-button">CALCULATE CALORIES</button>
+	<h3>Total calories per day: <span id="calcResult"></span></h3>
+
+
+
+	
+</div>
+</section>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
